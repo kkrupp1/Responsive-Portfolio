@@ -1,0 +1,221 @@
+body {
+    background-image: url(../images/circles-light.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 1000px;
+}
+
+.content1
+{
+    display: inline-block;
+    width: 960px;
+    height: 400px;
+    padding: 10px;
+    border: .5px solid #dddddd;
+    background-color: #fff;
+    position: fixed;
+    left: 208px;
+    top: 150px;
+    
+}
+
+.content3
+{
+    display: inline-block;
+    width: 960px;
+    height: 800px;
+    padding: 10px;
+    border: .5px solid #dddddd;
+    background-color: #fff;
+    position: fixed;
+    left: 208px;
+    top: 150px;
+    
+}
+
+p {
+    padding: 10px;
+}
+
+#propic
+{
+    height: 150px;
+    width: 17%;
+    float: left;
+    padding: 20px;
+}
+
+h2 {
+border-bottom-style: solid;
+border-bottom-width: 3px;
+border-bottom-color: #dddddd;
+border-spacing: 15px;
+width: 900px;
+margin: 0px 10px 0px 10px;
+color: #4aaaa5;
+font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 200px;
+    position: fixed;
+    left: 208px;
+    top: 1px;
+    text-align: center;
+    height: 100px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.bannertop {
+    display:inline-block;
+    width: 100%;
+    height: 115px;
+}
+
+.bannerbottomAbout {
+        display: inline-block;
+        width: 100%;
+        height: 75%x;
+        position: absolute;
+        top: 600px;
+        margin: 0px;
+    
+    }
+.bannerbottomPortfolio {
+        display: inline-block;
+        width: 100%;
+        height: 75%x;
+        position: absolute;
+        top: 1000px;
+        margin: 0px;
+    
+    }
+.bannerbottomContact {
+        display: inline-block;
+        width: 100%;
+        height: 75%x;
+        position: absolute;
+        top: 660px;
+        margin: 0px;
+    
+    }
+
+a:link {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+a:active {
+    text-decoration: none;
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+#AboutLink {
+    position:absolute;
+    right:300px;
+    top:70px;
+    
+}
+
+#PortfolioLink {
+    position:absolute;
+    right:200px;
+    top:70px;
+}
+
+#ContactLink {
+    position:absolute;
+    right:100px;
+    top:70px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+input[type=submit] {
+    width: 10%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #57d1ca;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.col-75 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.allimages {
+    float:left;
+}
+
+.portfoliocontent {
+
+    display: inline-block;
+    width: 960px;
+    height: 800px;
+    padding: 10px;
+    border: .5px solid #dddddd;
+    background-color: #fff;
+    position: absolute;
+    left: 208px;
+    top: 150px;
+
+}
